@@ -37,6 +37,9 @@
     <module>dubbo-demo-triple</module>
     <module>dubbo-demo-native</module>
     <module>dubbo-demo-spring-boot</module>
+    <module>dubbo-api</module>
+    <module>dubbo-consumer</module>
+    <module>dubbo-provider</module>
   </modules>
   <properties>
     <skip_maven_deploy>true</skip_maven_deploy>
