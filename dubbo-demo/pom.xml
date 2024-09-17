@@ -40,6 +40,7 @@
     <module>dubbo-api</module>
     <module>dubbo-consumer</module>
     <module>dubbo-provider</module>
+      <module>dubbo-demo-wink</module>
   </modules>
   <properties>
     <skip_maven_deploy>true</skip_maven_deploy>
