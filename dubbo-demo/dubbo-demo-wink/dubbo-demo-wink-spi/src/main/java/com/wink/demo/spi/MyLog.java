@@ -6,11 +6,11 @@ import org.apache.dubbo.common.extension.Activate;
 @Activate(group = "my",order = 1)
 public class MyLog  implements Log {
 
-/*    private Service service;
+    private Service service;
 
     public void setService(Service service) {
         this.service = service;
-    }*/
+    }
 
     @Override
     public void log(String log) {
