@@ -1,7 +1,10 @@
 package com.wink.demo.spi;
 
-import java.net.URL;
+import org.apache.dubbo.common.extension.Activate;
 
+import org.apache.dubbo.common.URL;
+
+@Activate(group = "common",order = 3)
 public class Logback implements Log{
 
     @Override
