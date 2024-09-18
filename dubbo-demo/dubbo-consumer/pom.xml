@@ -18,6 +18,20 @@
   </properties>
 
   <dependencies>
+
+    <!--<dependency>
+      <groupId>org.apache.dubbo</groupId>
+      <artifactId>dubbo-spring-boot-starter</artifactId>
+      <version>3.2.0</version>
+    </dependency>-->
+
+
+    <dependency>
+      <groupId>org.apache.dubbo</groupId>
+      <artifactId>dubbo-api</artifactId>
+      <version>3.2.15-SNAPSHOT</version>
+    </dependency>
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
@@ -40,7 +54,7 @@
     </dependency>
 
     <!--可选依赖 zookeeper注册中心使用,目前不导入也没有问题,后续注册中心讲解时在添加即可-->
-    <dependency>
+    <!--<dependency>
       <groupId>org.apache.curator</groupId>
       <artifactId>curator-x-discovery</artifactId>
       <version>5.2.0</version>
@@ -49,7 +63,7 @@
       <groupId>org.apache.zookeeper</groupId>
       <artifactId>zookeeper</artifactId>
       <version>3.8.0</version>
-    </dependency>
+    </dependency>-->
 
 
   </dependencies>
